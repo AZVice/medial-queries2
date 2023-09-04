@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-  background-color:blue;
+  
   display: flex;
   flex-direction: column;
   height: 98vh;
@@ -24,14 +24,14 @@ body{
 
 
 .a{
-  background-color: blue;
+  
   height: 150px;
   max-height: 25vh;
 
 }
 
 .b{
-  background-color: brown;
+  
   height: 300px;
   /*min-height: 40vh;*/
 
@@ -40,7 +40,7 @@ body{
 
 .cde{
   display: flex;
-  background-color: blueviolet;
+  
   flex-direction: row;
   height:150px;
   gap: 20px;
@@ -69,7 +69,7 @@ body{
 
   .a{
     width: 98vw;
-    background-color: blueviolet;
+    
     flex-grow: 2;
   }
 
