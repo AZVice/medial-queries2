@@ -1,101 +1,129 @@
 body {
-  background: black;
-}
-
-*{
+  /*background: black;*/
+  color: black;
   outline: 1px solid white;
-}
-
-body{
-  color:white;
-  text-align: center;
-  font-size: 2em;
-  
-}
-
-.container{
-  
   display: flex;
-  flex-direction: column;
-  height: 98vh;
-  gap: 20px;
-
+  flex-wrap: wrap;
+  gap: 20px 20px;
+  margin: 20px;
 }
 
 
-.a{
-  
-  height: 150px;
-  max-height: 25vh;
+.container1{
+  outline: 1px solid yellow;
+  width: 100vw;
+  height: 15vh;
+  background-color: orange;
+}
 
+
+.container2{
+  /*outline: 1px solid green;*/
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+  
+}
+
+
+.b{
+  /*outline: 1px dotted gainsboro;*/
+  width: 100%;
+  height: 75%;
+  background-color: orange;
+}
+
+.c{
+  /*outline: 1px dotted gainsboro;*/
+  width: 30%;
+  height: 20%;
+  background-color: orange;
+}
+
+.d{
+  /*outline: 1px dotted gainsboro;*/
+  width: 30%;
+  height: 20%;
+  background-color: orange;
+}
+
+.e{
+  /*outline: 1px dotted gainsboro;*/
+  width: 30%;
+  height: 20%;
+  background-color: orange;
+}
+
+.container3{
+  outline: 1px solid pink;
+  width: 100vw;
+  height: 15vh;
+  background-color: orange;
+}
+
+
+@media(min-width: 1000px) {
+
+  body{
+    /*background: brown;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1{
+  outline: 1px solid green;
+  width: 100vw;
+  height: 40vh;
+  gap:30px 30px;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  outline: 1px solid yellow;
+  width: 82%;
+  height: 60vh;
+  gap: 0px 20px;
 }
 
 .b{
-  
-  height: 300px;
-  /*min-height: 40vh;*/
-
-
+  outline: 1px solid aquamarine;
+  height: 50%;
+  width: 100%;
 }
 
-.cde{
-  display: flex;
-  
-  flex-direction: row;
-  height:150px;
-  gap: 20px;
- 
+.c{
+  outline: 1px solid goldenrod;
+  height: 40%;
+  width: 30%;
 }
 
-.c, .d, .e{
-  height: 150px;
-  width: 150px;
+.d{
+  outline: 1px solid goldenrod;
+  height: 40%;
+  width: 31%;
+}
+
+
+.e{
+  outline: 1px solid goldenrod;
+  height: 40%;
+  width: 31%;
+}
+
+
+.container3{
+  outline: 1px solid black;
+  width: 15vw;
+  height: 57vh;
+  
 }
 
 .f{
-  height: 150px;
+  width: 100%;
+  height: 100vh ;
 }
-
-
-@media(min-width: 500px) {
-
-  .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: -20px;
-
-  }
-
-  .a{
-    width: 98vw;
-    
-    flex-grow: 2;
-  }
-
-  .b{
-    /*flex-grow: 1;*/
-    width: 75vw;
-  }
-
-  .cde{
-    display: flex;
-    justify-content:space-between;
-    width: 75vw;
-    height: 250px;
-    
-  }
-
-  .c, .d, .e{
-    width: 300px;
-    height: 250px;
-  }
-
-  .f{
-    width: 200px;
-    height: 200px;
-  
-  
-  }
-  
 }
